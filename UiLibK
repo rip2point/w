@@ -1,6 +1,4 @@
---all credits go to jayhub devs, please join their discord server to help them out
-
-
+--credits to jayhub
 
 local Library = {}
 
@@ -22,7 +20,7 @@ function Library:CreateMain()
     local MainUICorner = Instance.new("UICorner")
     local Containers = Instance.new("Folder")
 
-    JayHub.Name = "LolHub X Mad City"
+    JayHub.Name = "JayHub"
     JayHub.Parent = game.CoreGui
     JayHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
