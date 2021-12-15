@@ -1,3 +1,7 @@
+--all credits go to jayhub devs, please join their discord server to help them out
+
+
+
 local Library = {}
 
 local Data = game:GetService("HttpService"):JSONDecode(http_request({Url="https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/Data.json",Method="GET"}).Body)
@@ -45,7 +49,7 @@ function Library:CreateMain()
     Title.Position = UDim2.new(0.1557789, 0, 0, 0)
     Title.Size = UDim2.new(0, 169, 0, 50)
     Title.Font = Enum.Font.GothamSemibold
-    Title.Text = "JayHub"
+    Title.Text = "LolHub X Madcity"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 28.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -247,7 +251,7 @@ function Library:CreateMain()
         Main.Visible = true
         Main:TweenSize(UDim2.new(0, 643, 0, 407),  Enum.EasingDirection.Out,  Enum.EasingStyle.Quint, 0.5, true)
         game.StarterGui:SetCore("SendNotification", {
-            Title = "JayHub";
+            Title = "LolHub";
             Text = "Press Right Shift to Open/Close";
             Duration = 3;
         })
