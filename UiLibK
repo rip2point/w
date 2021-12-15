@@ -1,4 +1,4 @@
---credits to jayhub
+--creds to jayhub
 
 local Library = {}
 
@@ -47,7 +47,7 @@ function Library:CreateMain()
     Title.Position = UDim2.new(0.1557789, 0, 0, 0)
     Title.Size = UDim2.new(0, 169, 0, 50)
     Title.Font = Enum.Font.GothamSemibold
-    Title.Text = "LolHub X Madcity"
+    Title.Text = "LolHub"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 28.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
