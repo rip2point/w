@@ -181,7 +181,7 @@ function Library:CreateMain()
     Title.Position = UDim2.new(0.116563082, 0, 0, 0)
     Title.Size = UDim2.new(0, 155, 0, 23)
     Title.Font = Enum.Font.GothamSemibold
-    Title.Text = "JayHub"
+    Title.Text = "LolHub"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 17.000
     
