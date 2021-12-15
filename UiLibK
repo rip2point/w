@@ -61,7 +61,7 @@ function Library:CreateMain()
     Version.Position = UDim2.new(0.156000003, 0, 0.0850000009, 0)
     Version.Size = UDim2.new(0, 98, 0, 17)
     Version.Font = Enum.Font.Gotham
-    Version.Text = 1.0.0
+    Version.Text = Data["version"]
     Version.TextColor3 = Color3.fromRGB(214, 214, 214)
     Version.TextSize = 14.000
     Version.TextXAlignment = Enum.TextXAlignment.Left
