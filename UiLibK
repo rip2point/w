@@ -1,5 +1,7 @@
 --creds to jayhub
 
+
+
 local Library = {}
 
 local Data = game:GetService("HttpService"):JSONDecode(http_request({Url="https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/Data.json",Method="GET"}).Body)
@@ -198,7 +200,7 @@ function Library:CreateMain()
     Credits1.Position = UDim2.new(0.116563082, 0, 0.311815321, 0)
     Credits1.Size = UDim2.new(0, 155, 0, 23)
     Credits1.Font = Enum.Font.GothamSemibold
-    Credits1.Text = "Created by "
+    Credits1.Text = "gaming god "
     Credits1.TextColor3 = Color3.fromRGB(255, 255, 255)
     Credits1.TextSize = 12.000
     
@@ -210,7 +212,7 @@ function Library:CreateMain()
     Credits2.Position = UDim2.new(0.116563082, 0, 0.481416315, 0)
     Credits2.Size = UDim2.new(0, 155, 0, 23)
     Credits2.Font = Enum.Font.GothamSemibold
-    Credits2.Text = "Jack1214060#5890"
+    Credits2.Text = ""
     Credits2.TextColor3 = Color3.fromRGB(255, 255, 255)
     Credits2.TextSize = 10.000
     
@@ -222,7 +224,7 @@ function Library:CreateMain()
     Credits3.Position = UDim2.new(0.116563082, 0, 0.675860703, 0)
     Credits3.Size = UDim2.new(0, 155, 0, 23)
     Credits3.Font = Enum.Font.GothamSemibold
-    Credits3.Text = "iFergggg#0328"
+    Credits3.Text = ""
     Credits3.TextColor3 = Color3.fromRGB(255, 255, 255)
     Credits3.TextSize = 10.000
 
